@@ -4,6 +4,16 @@ A local visual resume editor with a live one-page preview, drag-and-drop orderin
 
 All included resume content is placeholder text. Replace it with your own details.
 
+## Editor walkthrough
+
+See text editing, drag-and-drop section ordering, page settings, saving, and the clean resume view.
+
+[![Watch the editor walkthrough](assets/demo/editor-walkthrough.gif)](https://github.com/hemupadhyay26/resume-starter-pack/raw/refs/heads/main/assets/demo/editor-walkthrough.mp4)
+
+[Watch or download the full MP4 walkthrough](https://github.com/hemupadhyay26/resume-starter-pack/raw/refs/heads/main/assets/demo/editor-walkthrough.mp4).
+
+The recording uses fictional details and keeps demo edits in memory.
+
 ## Get your own copy
 
 Click **Use this template → Create a new repository** on GitHub. Choose a private repository if you will store personal contact details. Template copies start with their own Git history.
@@ -25,7 +35,7 @@ Open http://localhost:3000. Run commands from the repository root. Windows, macO
 
 1. Expand sidebar sections and replace the examples.
 2. Add or remove entries using the icon buttons.
-3. Drag handles to reorder entries or sections. Handles also support Up/Down keys.
+3. Drag handles to reorder entries or sections. Handles also support Up/Down keys. Drag icons stay static during hover and dragging.
 4. Adjust page size, margins, font, line spacing, and gaps in **Page and spacing**.
 5. Click **Save changes** to write your changes locally.
 6. Open **Resume only** for the clean saved version.
