@@ -1,0 +1,64 @@
+{
+  "basics": {
+    "name": "Your Name",
+    "headline": "Your professional title",
+    "email": "you@example.com",
+    "phone": "",
+    "location": "City, Country",
+    "links": [
+      {
+        "label": "Portfolio",
+        "url": "https://example.com"
+      }
+    ]
+  },
+  "summary": "Replace this example with a short introduction describing your background, interests, and the roles you are looking for.",
+  "experience": [
+    {
+      "title": "Your role",
+      "company": "Example Company",
+      "location": "City, Country",
+      "startDate": "Jan 2025",
+      "endDate": "Present",
+      "bullets": [
+        "Describe a responsibility or contribution in your own words.",
+        "Include outcomes you can explain and support in an interview."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Your project",
+      "url": "https://example.com/project",
+      "linkLabel": "Project",
+      "description": "",
+      "bullets": [
+        "Explain what you built, the problem it solves, and the tools you used."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "items": [
+        "Your languages"
+      ]
+    },
+    {
+      "name": "Tools",
+      "items": [
+        "Your tools"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Your institution",
+      "degree": "Your degree or qualification",
+      "startDate": "2020",
+      "endDate": "2024",
+      "bullets": []
+    }
+  ],
+  "certifications": []
+}

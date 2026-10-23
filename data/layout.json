@@ -1,0 +1,24 @@
+{
+  "page": {
+    "format": "Letter",
+    "marginMm": 19
+  },
+  "typography": {
+    "fontFamily": "Times New Roman",
+    "bodySizePt": 10,
+    "lineHeight": 1.14
+  },
+  "spacing": {
+    "sectionGapMm": 3.5,
+    "entryGapMm": 2
+  },
+  "sectionOrder": [
+    "summary",
+    "experience",
+    "projects",
+    "skills",
+    "education",
+    "certifications"
+  ],
+  "maxPages": 1
+}

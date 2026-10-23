@@ -1,0 +1,3 @@
+# Visual resume editor
+
+Run `npm run dev`, then open http://localhost:3000. Edit contact information, summary, experience, projects, skills, education, certifications, section order, and page spacing in the sidebar. The preview updates immediately. Save changes writes data/resume.json and data/layout.json. Resume only opens the saved resume without editor controls. Reload saved data discards your draft after confirmation. The last pre-save backup is stored in ignored output/backups/before-save.json. The server rejects stale saves when files were modified elsewhere. PDF export currently uses the browser print dialog; automated export is pending.
