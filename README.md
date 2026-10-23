@@ -107,3 +107,7 @@ To use another port: `PORT=3001 npm run dev` on macOS/Linux, or `$env:PORT=3001;
 Dashboard icons use [Animate UI](https://animate-ui.com/docs/icons) React components with Motion. They are bundled locally; the editor does not load icons from a CDN. Upstream licensing is retained in `editor/icons/LICENSE`.
 
 Project code is MIT licensed; see LICENSE. Keep your own resume data private if you do not want it published.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for local setup, validation, and pull request guidelines. New pull requests use the repository PR template.
