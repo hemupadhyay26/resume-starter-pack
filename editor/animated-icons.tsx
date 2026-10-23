@@ -17,7 +17,7 @@ export function mountIcon(element,name){
  if(!entry){
   entry={root:createRoot(element),name,active:false};
   roots.set(element,entry);
-  const render=()=>{const Icon=components[entry.name];entry.root.render(React.createElement(Icon,{size:19,animate:entry.active,completeOnStop:true,'aria-hidden':true,focusable:false}))};
+  const render=()=>{const Icon=components[entry.name];entry.root.render(React.createElement(Icon,{size:19,animate:entry.name!=='grip'&&entry.active,completeOnStop:entry.name!=='grip','aria-hidden':true,focusable:false}))};
   entry.render=render;
   element.addEventListener('pointerenter',()=>{entry.active=true;render()});
   element.addEventListener('pointerleave',()=>{entry.active=false;render()});
